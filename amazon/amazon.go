@@ -17,6 +17,6 @@ func Amazon() {
 
 	if err != nil {
 		log.Fatal(err)
-	}
+	}]
 
 }
