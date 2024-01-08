@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"goapi/alibaba"
 	"goapi/amazon"
 	"goapi/trendyol"
 	"os"
@@ -18,6 +19,9 @@ func main() {
 		trendyol.Trendyol()
 	case 2:
 		amazon.Amazon()
+	case 3:
+		alibaba.Alibaba()
+
 	default:
 		os.Exit(1)
 
