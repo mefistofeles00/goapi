@@ -12,6 +12,7 @@ func main() {
 	var choice int
 	fmt.Println("1. Trendyol Bestseller")
 	fmt.Println("2, Amazon bestsellers")
+	fmt.Println("3. Alibaba bestsellers (beta)")
 	fmt.Scan(&choice)
 
 	switch choice {
